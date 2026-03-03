@@ -26,8 +26,9 @@ struct PetList: View {
                 }
             }
             .sheet(isPresented: $showAddPet) {
-                // AddPetView — coming in the next step
-                Text("Add Pet")
+                AddPetView {
+                    viewModel.fetchPets()
+                }
             }
             .onAppear {
                 viewModel.fetchPets()
