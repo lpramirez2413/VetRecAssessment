@@ -19,3 +19,9 @@ enum AppError: Error, Equatable {
         }
     }
 }
+
+extension Error {
+    var asAppError: AppError {
+        (self as? AppError) ?? .unknown(localizedDescription)
+    }
+}
