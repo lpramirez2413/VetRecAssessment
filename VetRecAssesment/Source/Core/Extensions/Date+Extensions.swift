@@ -12,7 +12,10 @@ extension Date {
 
     /// Parse "2026-02-25" from JSON.
     static func from(iso8601 string: String) -> Date? {
-        ISO8601DateFormatter().date(from: string)
+        let formatter = DateFormatter()
+        formatter.dateFormat = "yyyy-MM-dd"
+        formatter.locale = Locale(identifier: "en_US_POSIX")
+        return formatter.date(from: string)
     }
 
     /// Add days, weeks, or months for end date

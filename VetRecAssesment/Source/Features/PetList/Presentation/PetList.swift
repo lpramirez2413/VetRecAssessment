@@ -44,9 +44,7 @@ struct PetList: View {
         }
         .listStyle(.insetGrouped)
         .navigationDestination(for: Pet.self) { pet in
-            // PetDetailsView — coming in the next step
-            Text("\(pet.name)'s details — coming soon")
-                .navigationTitle(pet.name)
+            PetDetailsView(pet: pet)
         }
     }
     

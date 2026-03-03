@@ -15,7 +15,7 @@
         "frequencyUnit": "hours",
         "title": "Respiratory Infection Treatment",
         "notes": "Rocky has been showing signs of coughing and nasal discharge consistent with a mild respiratory infection. Administer with food to avoid stomach upset. Monitor for improvement after 48 hours.",
-        "startDate": "2026-02-25",
+        "startDate": "2026-01-15",
         "durationValue": 10,
         "durationUnit": "days"
       },
@@ -28,7 +28,7 @@
         "frequencyUnit": "days",
         "title": "Seasonal Allergy Management",
         "notes": "Rocky has been scratching excessively and showing skin inflammation. Do not stop medication abruptly. Taper dose as instructed at follow-up. Keep away from other pets during treatment.",
-        "startDate": "2026-03-01",
+        "startDate": "2026-02-10",
         "durationValue": 2,
         "durationUnit": "weeks"
       }
@@ -50,7 +50,7 @@
         "frequencyUnit": "hours",
         "title": "Post-Surgery Pain Management",
         "notes": "Max underwent ACL repair on the left hind leg. Administer with food. Restrict physical activity — no running or jumping for the full duration. Contact the clinic immediately if vomiting, diarrhea, or appetite loss occurs.",
-        "startDate": "2026-02-28",
+        "startDate": "2026-02-18",
         "durationValue": 5,
         "durationUnit": "days"
       }
@@ -72,7 +72,7 @@
         "frequencyUnit": "hours",
         "title": "Hyperthyroidism Control",
         "notes": "Luna has been diagnosed with hyperthyroidism. Administer consistently every 12 hours, ideally at the same times each day. Wear gloves when handling the tablet. Recheck thyroid levels in 3 weeks.",
-        "startDate": "2026-02-20",
+        "startDate": "2026-01-05",
         "durationValue": 1,
         "durationUnit": "months"
       },
@@ -85,7 +85,7 @@
         "frequencyUnit": "days",
         "title": "Post-Dental Pain Relief",
         "notes": "Luna had three teeth extracted during her dental cleaning. Administer once daily for the prescribed duration. Do not use with other NSAIDs. Ensure adequate water intake.",
-        "startDate": "2026-03-01",
+        "startDate": "2025-11-20",
         "durationValue": 3,
         "durationUnit": "days"
       },
@@ -98,7 +98,7 @@
         "frequencyUnit": "hours",
         "title": "Post-Dental Antibiotic Course",
         "notes": "Prescribed following dental extractions to prevent secondary infection. Administer with a small amount of food. Complete the full course even if Luna appears to have recovered.",
-        "startDate": "2026-03-01",
+        "startDate": "2025-11-20",
         "durationValue": 7,
         "durationUnit": "days"
       }
@@ -120,7 +120,7 @@
         "frequencyUnit": "days",
         "title": "Motion Sickness Prevention",
         "notes": "Mochi experiences severe motion sickness during car rides. Administer 2 hours before travel. Shake the oral liquid well before use. Store refrigerated.",
-        "startDate": "2026-03-02",
+        "startDate": "2026-02-28",
         "durationValue": 5,
         "durationUnit": "days"
       },
@@ -133,7 +133,7 @@
         "frequencyUnit": "days",
         "title": "IBD Flare-Up Management",
         "notes": "Mochi has inflammatory bowel disease. This course is to manage an active flare-up. Feed a bland diet during treatment. Gradually taper the dose over the final week — do not stop abruptly.",
-        "startDate": "2026-02-25",
+        "startDate": "2026-01-20",
         "durationValue": 3,
         "durationUnit": "weeks"
       }
@@ -155,7 +155,7 @@
         "frequencyUnit": "hours",
         "title": "Chlamydiosis (Psittacosis) Treatment",
         "notes": "Kiwi has tested positive for Chlamydia psittaci. Administer drops directly into the beak or mix with a small amount of soft food. Keep Kiwi isolated from other birds for the full duration. Wash hands thoroughly after handling.",
-        "startDate": "2026-02-27",
+        "startDate": "2026-02-03",
         "durationValue": 6,
         "durationUnit": "weeks"
       }
