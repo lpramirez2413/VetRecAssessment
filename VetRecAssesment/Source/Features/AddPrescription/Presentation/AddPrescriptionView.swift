@@ -187,13 +187,8 @@ struct AddPrescriptionView: View {
                             Text(viewModel.selectedPhoto == nil ? "Choose Photo" : "Change Photo")
                                 .font(.subheadline)
                         }
-                        .onChange(of: selectedItem) { item in
-                            Task {
-                                if let data = try? await item?.loadTransferable(type: Data.self),
-                                   let image = UIImage(data: data) {
-                                    viewModel.selectedPhoto = image
-                                }
-                            }
+                        .onChange(of: selectedItem) { _, newValue in
+                            Task { await viewModel.loadPhoto(from: newValue) }
                         }
                     }
                 }

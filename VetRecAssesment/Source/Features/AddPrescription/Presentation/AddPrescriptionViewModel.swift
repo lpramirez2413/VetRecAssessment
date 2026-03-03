@@ -1,4 +1,5 @@
 import SwiftUI
+import PhotosUI
 
 enum AddPrescriptionMode {
     case add
@@ -67,6 +68,14 @@ class AddPrescriptionViewModel: ObservableObject {
             if let path = prescription.photoPath {
                 self.selectedPhoto = UIImage(contentsOfFile: path)
             }
+        }
+    }
+
+    func loadPhoto(from item: PhotosPickerItem?) async {
+        guard let item else { return }
+        if let data = try? await item.loadTransferable(type: Data.self),
+           let image = UIImage(data: data) {
+            selectedPhoto = image
         }
     }
 
