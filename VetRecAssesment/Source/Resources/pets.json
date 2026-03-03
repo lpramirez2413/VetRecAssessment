@@ -1,0 +1,164 @@
+[
+  {
+    "id": "a1b2c3d4-0001-0001-0001-000000000001",
+    "name": "Rocky",
+    "species": "dog",
+    "clientName": "John Smith",
+    "imageURL": "https://r2.animals.maxz.dev/dog/dh67BqA",
+    "prescriptions": [
+      {
+        "id": "rx000001-0001-0001-0001-000000000001",
+        "medicationName": "Amoxicillin",
+        "dosage": "250",
+        "dosageUnit": "mg",
+        "frequencyValue": 12,
+        "frequencyUnit": "hours",
+        "title": "Respiratory Infection Treatment",
+        "notes": "Rocky has been showing signs of coughing and nasal discharge consistent with a mild respiratory infection. Administer with food to avoid stomach upset. Monitor for improvement after 48 hours.",
+        "startDate": "2026-02-25",
+        "durationValue": 10,
+        "durationUnit": "days"
+      },
+      {
+        "id": "rx000001-0001-0001-0001-000000000002",
+        "medicationName": "Prednisone",
+        "dosage": "5",
+        "dosageUnit": "mg",
+        "frequencyValue": 1,
+        "frequencyUnit": "days",
+        "title": "Seasonal Allergy Management",
+        "notes": "Rocky has been scratching excessively and showing skin inflammation. Do not stop medication abruptly. Taper dose as instructed at follow-up. Keep away from other pets during treatment.",
+        "startDate": "2026-03-01",
+        "durationValue": 2,
+        "durationUnit": "weeks"
+      }
+    ]
+  },
+  {
+    "id": "a1b2c3d4-0002-0002-0002-000000000002",
+    "name": "Max",
+    "species": "dog",
+    "clientName": "Sarah Johnson",
+    "imageURL": "https://r2.animals.maxz.dev/dog/NYwznz2",
+    "prescriptions": [
+      {
+        "id": "rx000002-0002-0002-0002-000000000001",
+        "medicationName": "Carprofen",
+        "dosage": "50",
+        "dosageUnit": "mg",
+        "frequencyValue": 12,
+        "frequencyUnit": "hours",
+        "title": "Post-Surgery Pain Management",
+        "notes": "Max underwent ACL repair on the left hind leg. Administer with food. Restrict physical activity — no running or jumping for the full duration. Contact the clinic immediately if vomiting, diarrhea, or appetite loss occurs.",
+        "startDate": "2026-02-28",
+        "durationValue": 5,
+        "durationUnit": "days"
+      }
+    ]
+  },
+  {
+    "id": "a1b2c3d4-0003-0003-0003-000000000003",
+    "name": "Luna",
+    "species": "cat",
+    "clientName": "Emily Davis",
+    "imageURL": "https://r2.animals.maxz.dev/cat/G8BdBA9",
+    "prescriptions": [
+      {
+        "id": "rx000003-0003-0003-0003-000000000001",
+        "medicationName": "Methimazole",
+        "dosage": "2.5",
+        "dosageUnit": "mg",
+        "frequencyValue": 12,
+        "frequencyUnit": "hours",
+        "title": "Hyperthyroidism Control",
+        "notes": "Luna has been diagnosed with hyperthyroidism. Administer consistently every 12 hours, ideally at the same times each day. Wear gloves when handling the tablet. Recheck thyroid levels in 3 weeks.",
+        "startDate": "2026-02-20",
+        "durationValue": 1,
+        "durationUnit": "months"
+      },
+      {
+        "id": "rx000003-0003-0003-0003-000000000002",
+        "medicationName": "Onsior",
+        "dosage": "6",
+        "dosageUnit": "mg",
+        "frequencyValue": 1,
+        "frequencyUnit": "days",
+        "title": "Post-Dental Pain Relief",
+        "notes": "Luna had three teeth extracted during her dental cleaning. Administer once daily for the prescribed duration. Do not use with other NSAIDs. Ensure adequate water intake.",
+        "startDate": "2026-03-01",
+        "durationValue": 3,
+        "durationUnit": "days"
+      },
+      {
+        "id": "rx000003-0003-0003-0003-000000000003",
+        "medicationName": "Clindamycin",
+        "dosage": "25",
+        "dosageUnit": "mg",
+        "frequencyValue": 12,
+        "frequencyUnit": "hours",
+        "title": "Post-Dental Antibiotic Course",
+        "notes": "Prescribed following dental extractions to prevent secondary infection. Administer with a small amount of food. Complete the full course even if Luna appears to have recovered.",
+        "startDate": "2026-03-01",
+        "durationValue": 7,
+        "durationUnit": "days"
+      }
+    ]
+  },
+  {
+    "id": "a1b2c3d4-0004-0004-0004-000000000004",
+    "name": "Mochi",
+    "species": "cat",
+    "clientName": "Carlos Rivera",
+    "imageURL": "https://r2.animals.maxz.dev/cat/2sIORFt",
+    "prescriptions": [
+      {
+        "id": "rx000004-0004-0004-0004-000000000001",
+        "medicationName": "Cerenia",
+        "dosage": "1",
+        "dosageUnit": "ml",
+        "frequencyValue": 1,
+        "frequencyUnit": "days",
+        "title": "Motion Sickness Prevention",
+        "notes": "Mochi experiences severe motion sickness during car rides. Administer 2 hours before travel. Shake the oral liquid well before use. Store refrigerated.",
+        "startDate": "2026-03-02",
+        "durationValue": 5,
+        "durationUnit": "days"
+      },
+      {
+        "id": "rx000004-0004-0004-0004-000000000002",
+        "medicationName": "Prednisolone",
+        "dosage": "5",
+        "dosageUnit": "mg",
+        "frequencyValue": 1,
+        "frequencyUnit": "days",
+        "title": "IBD Flare-Up Management",
+        "notes": "Mochi has inflammatory bowel disease. This course is to manage an active flare-up. Feed a bland diet during treatment. Gradually taper the dose over the final week — do not stop abruptly.",
+        "startDate": "2026-02-25",
+        "durationValue": 3,
+        "durationUnit": "weeks"
+      }
+    ]
+  },
+  {
+    "id": "a1b2c3d4-0005-0005-0005-000000000005",
+    "name": "Kiwi",
+    "species": "bird",
+    "clientName": "Amanda Chen",
+    "imageURL": "https://r2.animals.maxz.dev/bird/52JYIR2vFuV39xXYidu1_",
+    "prescriptions": [
+      {
+        "id": "rx000005-0005-0005-0005-000000000001",
+        "medicationName": "Doxycycline",
+        "dosage": "10",
+        "dosageUnit": "drops",
+        "frequencyValue": 12,
+        "frequencyUnit": "hours",
+        "title": "Chlamydiosis (Psittacosis) Treatment",
+        "notes": "Kiwi has tested positive for Chlamydia psittaci. Administer drops directly into the beak or mix with a small amount of soft food. Keep Kiwi isolated from other birds for the full duration. Wash hands thoroughly after handling.",
+        "startDate": "2026-02-27",
+        "durationValue": 6,
+        "durationUnit": "weeks"
+      }
+    ]
+  }
+]
