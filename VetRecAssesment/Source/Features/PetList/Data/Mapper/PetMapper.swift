@@ -28,9 +28,9 @@ struct PetMapper {
         )
     }
 
-    // MARK: - Private
+    // MARK: - Internal helpers
 
-    private static func toPrescription(from model: PrescriptionModel) -> Prescription {
+    static func toPrescription(from model: PrescriptionModel) -> Prescription {
         Prescription(
             id: UUID(uuidString: model.id) ?? UUID(),
             medicationName: model.medicationName,
@@ -48,7 +48,7 @@ struct PetMapper {
         )
     }
 
-    private static func toPrescription(from entity: PrescriptionEntity) -> Prescription {
+    static func toPrescription(from entity: PrescriptionEntity) -> Prescription {
         Prescription(
             id: entity.id ?? UUID(),
             medicationName: entity.medicationName ?? "",

@@ -25,15 +25,13 @@ struct PetDetailsView: View {
                 }
             }
         }
-        .sheet(isPresented: $showAddPrescription) {
-            viewModel.loadPrescriptions()
-        } content: {
-            // AddPrescriptionView — coming in the next step
-            Text("Add Prescription")
+        .sheet(isPresented: $showAddPrescription, onDismiss: viewModel.loadPrescriptions) {
+            AddPrescriptionView(mode: .add, pet: viewModel.pet) {
+                viewModel.loadPrescriptions()
+            }
         }
         .sheet(item: $selectedPrescription) { prescription in
-            // AddPrescriptionView (read-only) — coming in the next step
-            Text("\(prescription.title) — read-only")
+            AddPrescriptionView(mode: .readOnly(prescription), pet: viewModel.pet)
         }
         .onAppear {
             viewModel.loadPrescriptions()

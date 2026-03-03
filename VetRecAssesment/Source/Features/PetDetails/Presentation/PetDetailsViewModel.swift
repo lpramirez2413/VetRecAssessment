@@ -14,6 +14,10 @@ class PetDetailsViewModel: ObservableObject {
     }
 
     func loadPrescriptions() {
-        prescriptions = getPrescriptionsUseCase.execute(for: pet)
+        do {
+            prescriptions = try getPrescriptionsUseCase.execute(petID: pet.id)
+        } catch {
+            prescriptions = []
+        }
     }
 }

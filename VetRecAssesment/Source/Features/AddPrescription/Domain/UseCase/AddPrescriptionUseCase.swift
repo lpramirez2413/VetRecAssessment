@@ -1,6 +1,6 @@
 import Foundation
 
-struct GetPrescriptionsUseCase {
+struct AddPrescriptionUseCase {
 
     private let repository: PrescriptionsRepositoryProtocol
 
@@ -8,9 +8,9 @@ struct GetPrescriptionsUseCase {
         self.repository = repository
     }
 
-    func execute(petID: UUID) throws -> [Prescription] {
+    func execute(prescription: Prescription, pet: Pet) throws {
         do {
-            return try repository.fetchPrescriptions(for: petID)
+            try repository.addPrescription(prescription, to: pet)
         } catch {
             throw error.asAppError
         }
